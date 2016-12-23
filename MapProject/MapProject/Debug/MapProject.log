@@ -1,0 +1,8 @@
+﻿  Source.cpp
+  connection.h
+  Compiling...
+  Generating Code...
+library.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'library.obj' or at 'C:\Users\Sponge\documents\visual studio 2017\Projects\MapProject\Debug\vc140.pdb'; linking object as if no debug info
+  MapProject.vcxproj -> C:\Users\Sponge\documents\visual studio 2017\Projects\MapProject\Debug\MapProject.exe
+  MapProject.vcxproj -> C:\Users\Sponge\documents\visual studio 2017\Projects\MapProject\Debug\MapProject.pdb (Partial PDB)
+c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\source.cpp(343): warning C6385: Reading invalid data from 'temp':  the readable size is '2*((numRows+1))*numCols' bytes, but '4' bytes may be read.

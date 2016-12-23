@@ -1,0 +1,9 @@
+﻿  connection.h
+  Source.cpp
+library.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+  Generating code
+  All 539 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+library.obj : warning LNK4099: PDB 'vc140.pdb' was not found with 'library.obj' or at 'C:\Users\Sponge\documents\visual studio 2017\Projects\MapProject\Release\vc140.pdb'; linking object as if no debug info
+  MapProject.vcxproj -> C:\Users\Sponge\documents\visual studio 2017\Projects\MapProject\Release\MapProject.exe
+  MapProject.vcxproj -> C:\Users\Sponge\documents\visual studio 2017\Projects\MapProject\Release\MapProject.pdb (Full PDB)

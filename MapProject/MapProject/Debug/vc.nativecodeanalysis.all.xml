@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+      <FILENAME>source.cpp</FILENAME>
+      <LINE>289</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'curr' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '250' of 'c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\source.cpp'.</DESCRIPTION>
+    <FUNCTION>shortestPath</FUNCTION>
+    <DECORATED>?shortestPath@@YA?AV?$vector@PAVintersection@@V?$allocator@PAVintersection@@@std@@@std@@AAPAVintersection@@0V12@V?$vector@PAVconnection@@V?$allocator@PAVconnection@@@std@@@2@@Z</DECORATED>
+    <FUNCLINE>244</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+      <FILENAME>source.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'temp':  the readable size is '2*((numRows+1))*numCols' bytes, but '4' bytes may be read.</DESCRIPTION>
+    <FUNCTION>loadMap</FUNCTION>
+    <DECORATED>?loadMap@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAN11@Z</DECORATED>
+    <FUNCLINE>315</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>316</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>317</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>322</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>56</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>330</LINE>
+        <COLUMN>78</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>91</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>332</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>333</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'temp' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>334</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'temp' is an In/Out argument to 'fread' (declared at c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h:233)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>335</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>337</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>338</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>340</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'r' is equal to 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>340</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'r&lt;numRows+1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'c&lt;numCols')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sponge\documents\visual studio 2017\projects\mapproject\mapproject\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'temp', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
