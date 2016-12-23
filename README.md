@@ -3,5 +3,8 @@ A C++ school project that uses publicly available elevation, city, and connectin
 
 The executable can be found at under US-Map/MapProject/Release/MapProject.exe
 
-[[https://github.com/pr4296/US-Map/naperville-miami.png|alt=Route1]]
-[[https://github.com/pr4296/US-Map/seattle-bar_harbor.png|alt=Route2]]
+Here are two screenshots of the final project:
+[[https://github.com/pr4296/US-Map/blob/master/naperville-miami.png]]
+[[https://github.com/pr4296/US-Map/blob/master/seattle-bar_harbor.png]]
+
+Disclaimer: Big cities in this file are broken into North/South/East/West CityName, so places like Chicago or Houston don't work, but North Chicago and South Houston do. 
